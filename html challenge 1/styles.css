@@ -1,0 +1,16 @@
+main{
+    line-height: 40px;
+
+}
+nav{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+    align-items: baseline;
+}
+img{
+    width: 400px;;
+    height: 400px;
+    margin-right: 0;
+    
+}

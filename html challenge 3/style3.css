@@ -1,0 +1,139 @@
+html{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    background-color:  #212b2d;
+}
+.main-body{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+.header{
+    height: 150px;
+    width: 100%;
+    padding: 50px 90px; 
+    color: white;
+    background: url(../images/5_Best_Coding_Programs_for_Aspiring_Programmers1650304687858345.jpg);
+    margin-right: 100px;
+}
+.navbar{
+    background-color: #333d3f;
+    width: 100%;
+    color: white;
+}
+.nav-list{
+    display: flex;
+    align-items: baseline;
+    list-style: none;
+    font-size: 18px;
+    margin: 0;
+    padding: 20px;
+    justify-content: space-between;
+}
+.nav-list a{
+color: white;
+text-decoration: none;
+}
+main{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    padding: 30px;
+    margin: 0px 30px;
+    border-bottom: 1px solid white;
+}
+.sections{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.first--section{
+    color: white;
+    margin: 0;
+}
+.first--section h2{
+    padding-left: 15px;
+    margin: 0;
+}
+.first--section ul{
+    padding: 0;
+}
+
+.first--section li{
+    text-decoration: underline;
+    margin: 0;
+    padding: 8px 0px;
+
+}
+.second--section{
+    padding: 20px 50px 40px 0px;
+    color: white;
+    margin: 0; 
+    line-height: 1.5;
+}
+.second--section h2{
+    padding: 15px;
+}
+.third-section{
+    display: flex;
+    width: 100%;
+}
+.gallery{
+    color: white;
+    margin: 0;
+    line-height: 1.8;
+    margin-bottom: 80px;
+}
+.gallery h1{
+    border-bottom: 1px solid white;
+    margin: 0;
+    padding: 10px 0px;
+}
+.read-more{
+    background-color: #96abaf;
+    color: black;
+    font-weight: bold;
+    display: block;
+}
+.subscription{
+    color: white;
+    line-height: 1.5;
+    width: fit-content;
+    padding-right: 20px;
+}
+.subscription p {
+    margin: 40px 0px;
+}
+
+.other-services{
+    color: white;
+    line-height: 1.5;
+    width: fit-content;
+    padding-left: 20px;
+    border-left: 1px solid white;
+}
+.other-services p {
+    margin: 40px 0px;
+
+}
+
+
+.contact-us{
+    padding: 40px; 
+    color: white;
+}
+.contact-us form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    line-height: 20px;
+}
+.footer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
