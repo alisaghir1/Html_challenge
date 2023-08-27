@@ -6,6 +6,7 @@ html{
     overflow-x: hidden;
     font-family: sans-serif;
     background-color:  #212b2d;
+    padding-right: 100px;
 }
 .main-body{
     margin-left: 100px;
@@ -14,11 +15,9 @@ html{
 }
 .header{
     height: 150px;
-    width: 100%;
     padding: 50px 90px; 
     color: white;
     background: url(../images/5_Best_Coding_Programs_for_Aspiring_Programmers1650304687858345.jpg);
-    margin-right: 100px;
 }
 .navbar{
     background-color: #333d3f;
